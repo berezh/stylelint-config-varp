@@ -29,13 +29,18 @@ module.exports = {
     "editor.codeActionsOnSave": {
         "source.fixAll.stylelint": true
     },
+    "stylelint.validate": ["scss"],
 }
 ```
 
 4. Add `.stylelintignore` with content:
 
 ```
-!*.css
+.next
+build
+public
+node_modules
+next.config.js
 !*.scss
 ```
 

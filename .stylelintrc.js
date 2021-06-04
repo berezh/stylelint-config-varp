@@ -38,6 +38,7 @@ module.exports = {
             "ignoreSelectors": [
                 "\\.recharts-"
             ]
-        }
+        },
+        "indentation": 4
     }
 }
