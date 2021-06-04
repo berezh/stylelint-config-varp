@@ -1,0 +1,40 @@
+{
+  "name": "stylelint-config-varp",
+  "version": "0.0.1",
+  "description": "Stylelint config by Varp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylelint": "stylelint .",
+    "stylelint:fix": "stylelint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berezh/stylelint-config-varp.git"
+  },
+  "keywords": [
+    "stilelint",
+    "config",
+    "varp"
+  ],
+  "author": "Varp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berezh/stylelint-config-varp/issues"
+  },
+  "homepage": "https://github.com/berezh/stylelint-config-varp#readme",
+  "devDependencies": {
+    "stylelint": "^13.13.1",
+    "stylelint-config-recommended": "^5.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.19.0",
+    "stylelint-selector-bem-pattern": "^2.1.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^13.13.1",
+    "stylelint-config-recommended": "^5.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.19.0",
+    "stylelint-selector-bem-pattern": "^2.1.0"
+  }
+}
