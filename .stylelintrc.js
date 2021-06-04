@@ -7,6 +7,7 @@ module.exports = {
         "stylelint-scss",
         "stylelint-selector-bem-pattern"
     ],
+    ignoreFiles: ["**/*.js", "**/*.json"],
     rules: {
         "at-rule-no-unknown": null,
         "order/order": [
