@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "stylelint": "stylelint .",
-    "stylelint:fix": "stylelint . --fix"
+    "stylelint:fix": "stylelint . --fix",
+    "stylelint-check": "stylelint-config-prettier-check"
   },
   "repository": {
     "type": "git",
