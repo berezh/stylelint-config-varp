@@ -1,6 +1,7 @@
 module.exports = {
     extends: [
-        "stylelint-config-recommended"
+        "stylelint-config-recommended",
+        "stylelint-config-prettier"
     ],
     plugins: [
         "stylelint-order",
@@ -24,21 +25,11 @@ module.exports = {
                 ]
             }
         ],
-        "rule-empty-line-before": [
-            "always",
-            {
-                "except": [
-                    "after-single-line-comment",
-                    "first-nested"
-                ]
-            }
-        ],
         "plugin/selector-bem-pattern": {
             "preset": "bem",
             "ignoreSelectors": [
                 "\\.recharts-"
             ]
-        },
-        "indentation": 4
+        }
     }
 }
