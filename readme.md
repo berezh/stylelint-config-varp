@@ -26,21 +26,25 @@ module.exports = {
 3. Add `.vscode/settings.json` with content:
 ```json
 {
+  "[scss]": {
     "editor.codeActionsOnSave": {
-        "source.fixAll.stylelint": true
-    },
-    "stylelint.validate": ["scss"],
+      "source.fixAll.stylelint": true
+    }
+  },
+  "stylelint.validate": [
+    "scss"
+  ],
+  "stylelint.snippet": [
+    "scss"
+  ]
 }
 ```
 
 4. Add `.stylelintignore` with content:
 
 ```
-.next
-build
-public
 node_modules
-next.config.js
+*.*
 !*.scss
 ```
 
