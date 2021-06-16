@@ -39,6 +39,7 @@ module.exports = {
                 "\\.recharts-"
             ]
         },
-        "indentation": 4
+        "indentation": 4,
+        'block-opening-brace-space-before': ['always'],
     }
 }
