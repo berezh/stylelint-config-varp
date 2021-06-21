@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-varp",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Stylelint config by Varp",
   "main": "index.js",
   "scripts": {

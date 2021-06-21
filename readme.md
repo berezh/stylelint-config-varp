@@ -52,8 +52,8 @@ node_modules
 
 ```json
 "scripts": {
-  "stylelint": "stylelint .",
-  "stylelint:fix": "stylelint . --fix"
+    "stylelint": "stylelint .",
+    "stylelint:fix": "stylelint . --fix"
 }
 ```
 
@@ -61,8 +61,8 @@ node_modules
 
 ```json
 "scripts": {
-        "lint": "stylelint . && eslint .",
-        "lint:fix": "stylelint . --fix && eslint . --fix"
+    "lint": "stylelint . && eslint .",
+    "lint:fix": "stylelint . --fix && eslint . --fix"
 }
 ```
 
