@@ -4,7 +4,7 @@
     <img src="https://nodei.co/npm/stylelint-config-varp.png?mini=true">
 </a>
 
-## How to set up
+## Set up
 
 1. Install with peer dependencies:
 
@@ -64,5 +64,17 @@ node_modules
     "lint": "stylelint \"**/*.scss\" && eslint .",
     "lint:fix": "stylelint \"**/*.scss\" --fix && eslint . --fix"
 }
+```
+## Cases
+
+### Override folder
+
+```js
+module.exports = {
+    extends: "../.stylelintrc.js",
+    rules: {
+        /* Overrided rules */
+    }
+};
 ```
 
