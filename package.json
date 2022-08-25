@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-varp",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Stylelint config by Varp",
   "main": "index.js",
   "scripts": {
@@ -34,8 +34,8 @@
     "stylelint": ">=14",
     "stylelint-config-standard-scss": ">=5",
     "stylelint-order": ">=5",
-    "stylelint-scss": ">4",
-    "stylelint-selector-bem-pattern": ">2"
+    "stylelint-scss": ">=4",
+    "stylelint-selector-bem-pattern": ">=2"
   },
   "dependencies": {}
 }
