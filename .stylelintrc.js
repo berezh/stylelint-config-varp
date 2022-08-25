@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        "stylelint-config-recommended"
+        "stylelint-config-standard-scss"
     ],
     plugins: [
         "stylelint-order",
@@ -8,6 +8,7 @@ module.exports = {
         "stylelint-selector-bem-pattern"
     ],
     ignoreFiles: ["**/*.js", "**/*.json"],
+    "files": ["**/*.sss"],
     rules: {
         "at-rule-no-unknown": null,
         "order/order": [
