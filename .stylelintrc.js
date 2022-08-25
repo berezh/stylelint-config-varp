@@ -42,5 +42,6 @@ module.exports = {
         },
         "indentation": 2,
         'block-opening-brace-space-before': ['always'],
+        "color-function-notation": ["legacy"]
     }
 }
