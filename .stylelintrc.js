@@ -4,18 +4,11 @@ module.exports = {
     ],
     plugins: [
         "stylelint-order",
-        "stylelint-scss",
-        "stylelint-selector-bem-pattern"
     ],
     ignoreFiles: ["**/*.js", "**/*.json"],
-    "files": ["**/*.sss"],
     rules: {
-        "at-rule-no-unknown": null,
-        "order/order": [
-            "custom-properties",
-            "declarations"
-        ],
-        "order/properties-alphabetical-order": null,
+        // ORIGINAL
+        "at-rule-no-unknown": null,        
         "no-descending-specificity": null,
         "selector-pseudo-class-no-unknown": [
             true,
@@ -34,14 +27,14 @@ module.exports = {
                 ]
             }
         ],
-        "plugin/selector-bem-pattern": {
-            "preset": "bem",
-            "ignoreSelectors": [
-                "\\.recharts-"
-            ]
-        },
         "indentation": 2,
-        'block-opening-brace-space-before': ['always'],
-        "color-function-notation": ["legacy"]
+        'block-opening-brace-space-before': ["always"],
+        "color-function-notation": ["legacy"],
+        // ORDER
+        "order/order": [
+            "custom-properties",
+            "declarations"
+        ],
+        "order/properties-alphabetical-order": null
     }
 }

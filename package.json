@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-varp",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "description": "Stylelint config by Varp",
   "main": "index.js",
   "scripts": {
@@ -24,18 +24,14 @@
   },
   "homepage": "https://github.com/berezh/stylelint-config-varp#readme",
   "devDependencies": {
-    "stylelint": "^14.11.0",
-    "stylelint-config-standard-scss": "^5.0.0",
-    "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.3.0",
-    "stylelint-selector-bem-pattern": "^2.1.1"
+    "stylelint": "^14.16.1",
+    "stylelint-config-standard-scss": "^6.1.0",
+    "stylelint-order": "^6.0.1"
   },
   "peerDependencies": {
     "stylelint": ">=14",
-    "stylelint-config-standard-scss": ">=5",
-    "stylelint-order": ">=5",
-    "stylelint-scss": ">=4",
-    "stylelint-selector-bem-pattern": ">=2"
+    "stylelint-config-standard-scss": ">=6",
+    "stylelint-order": ">=6"
   },
   "dependencies": {}
 }
