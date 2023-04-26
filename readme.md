@@ -23,7 +23,14 @@ module.exports = {
 };
 ```
 
-3. Add `.vscode/settings.json` with content:
+3. Add `.stylelintignore` with content:
+
+```
+.*/
+!*.scss
+```
+
+4. Add `.vscode/settings.json` with content:
 ```json
 {
   "[scss]": {
@@ -40,14 +47,6 @@ module.exports = {
 }
 ```
 
-4. Add `.stylelintignore` with content:
-
-```
-node_modules
-*.*
-!*.scss
-```
-
 5. Add new scripts to package.json:
 
 ```json
@@ -61,10 +60,11 @@ node_modules
 
 ```json
 "scripts": {
-    "lint": "stylelint \"**/*.scss\" && eslint .",
-    "lint:fix": "stylelint \"**/*.scss\" --fix && eslint . --fix"
+    "lint": "eslint . && stylelint \"**/*.scss\"",
+    "lint:fix": "eslint . --fix && stylelint \"**/*.scss\" --fix"
 }
 ```
+
 ## Cases
 
 ### Override folder
@@ -78,3 +78,5 @@ module.exports = {
 };
 ```
 
+
+npm i -D stylelint stylelint-config-standard-scss stylelint-order stylelint-scss stylelint-selector-bem-pattern

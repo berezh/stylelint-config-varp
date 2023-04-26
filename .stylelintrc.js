@@ -7,16 +7,12 @@ module.exports = {
         "stylelint-scss",
         "stylelint-selector-bem-pattern"
     ],
-    ignoreFiles: ["**/*.js", "**/*.json"],
-    "files": ["**/*.sss"],
     rules: {
+        // COMMON
         "at-rule-no-unknown": null,
-        "order/order": [
-            "custom-properties",
-            "declarations"
-        ],
-        "order/properties-alphabetical-order": null,
-        "no-descending-specificity": null,
+        "indentation": 2,
+        'block-opening-brace-space-before': ['always'],
+        "no-descending-specificity": null,   
         "selector-pseudo-class-no-unknown": [
             true,
             {
@@ -34,13 +30,18 @@ module.exports = {
                 ]
             }
         ],
+        // ORDER
+        "order/order": [
+            "custom-properties",
+            "declarations"
+        ],
+        "order/properties-alphabetical-order": null,
+        // BEM
         "plugin/selector-bem-pattern": {
             "preset": "bem",
             "ignoreSelectors": [
                 "\\.recharts-"
             ]
-        },
-        "indentation": 2,
-        'block-opening-brace-space-before': ['always'],
+        }
     }
 }
