@@ -4,8 +4,6 @@ module.exports = {
     ],
     plugins: [
         "stylelint-order",
-        "stylelint-scss",
-        "stylelint-selector-bem-pattern"
     ],
     rules: {
         // COMMON
