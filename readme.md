@@ -9,7 +9,7 @@
 1. Install with peer dependencies:
 
 ```js
-npx install-peerdeps --dev stylelint-config-varp
+npm install --D stylelint-config-varp
 ```
 
 2. Create `.stylelintrc.js` with content:
