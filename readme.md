@@ -77,6 +77,3 @@ module.exports = {
     }
 };
 ```
-
-
-npm i -D stylelint stylelint-config-standard-scss stylelint-order stylelint-scss stylelint-selector-bem-pattern

@@ -34,12 +34,5 @@ module.exports = {
             "declarations"
         ],
         "order/properties-alphabetical-order": null,
-        // BEM
-        "plugin/selector-bem-pattern": {
-            "preset": "bem",
-            "ignoreSelectors": [
-                "\\.recharts-"
-            ]
-        }
     }
 }
