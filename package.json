@@ -1,12 +1,12 @@
 {
   "name": "stylelint-config-varp",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Stylelint config by Varp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "stylelint .",
-    "lint:fix": "stylelint . --fix"
+    "stylelint": "stylelint \"**/*.scss\"",
+    "stylelint:fix": "stylelint \"**/*.scss\" --fix"
   },
   "repository": {
     "type": "git",
